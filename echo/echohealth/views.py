@@ -265,7 +265,7 @@ class GeminiOralCancerView(APIView):
             )
 
             # Call Gemini API
-            url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyD0p2WWLiqMvA_GUQWY4g4kf0RMACdBrDM"
+            url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyChyWtWrTKXlRhTx4yGJ84f3je3bJ2u6jw"
             headers = {"Content-Type": "application/json"}
             payload = {
                 "contents": [{
@@ -335,7 +335,7 @@ from .models import OralCancerChat
 from .serializers import OralCancerChatSerializer
 
 # Gemini API details
-GEMINI_API_KEY = "AIzaSyCI8L70_Hw2nilhIIws5F8kSgMKbZwwjMA"
+GEMINI_API_KEY = "AIzaSyB-13W1EkYQhvbEV_XXA7P9GawsL1v1okw"
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
 class OralCancerChatbotView(APIView):
